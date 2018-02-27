@@ -1,0 +1,40 @@
+html, body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;    
+}
+
+.topnav {
+    background-color: purple;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 144px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.active {
+    background-color: purple;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
